@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Start a scripted screencast",
+        "command": "atom-scripted-screencast:start"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-scripted-screencast",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "atom-scripted-screencast:start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

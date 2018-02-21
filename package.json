@@ -1,0 +1,25 @@
+{
+  "name": "atom-scripted-screencast",
+  "main": "./lib/atom-scripted-screencast",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-scripted-screencast:start"
+  },
+  "repository": "https://github.com/atom/atom-scripted-screencast",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "screen-recorder": {
+      "versions": {
+        "^1.5.0": "consumeScreenRecorder"
+      }
+    }
+  }
+}
