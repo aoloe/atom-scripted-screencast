@@ -20,6 +20,11 @@
       "versions": {
         "^1.5.0": "consumeScreenRecorder"
       }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
     }
   }
 }
